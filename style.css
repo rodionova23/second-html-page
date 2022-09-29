@@ -1,4 +1,7 @@
-.hat_background{
-    background: dark-green;
+.header{
     width: 100%;
+    background: #007865;
+    color:white;
+    height: 2em;
 }
+
