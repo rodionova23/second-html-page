@@ -5,3 +5,23 @@
     height: 2em;
 }
 
+.logo{
+    float: left;
+}
+
+nav {
+    float: right;
+    
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  nav li {
+    display: inline-block; 
+      }
+
+  a {
+    color:white;
+  }
