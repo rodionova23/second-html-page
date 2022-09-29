@@ -20,8 +20,12 @@ nav {
   }
   nav li {
     display: inline-block; 
+    content: "|";
       }
 
   a {
     color:white;
+  }
+  li:not(:first-child):before {
+    content: " | ";
   }
