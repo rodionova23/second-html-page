@@ -2,15 +2,19 @@
     width: 100%;
     background: #007865;
     color:white;
-    height: 2em;
+    height: 3em;
+    
+    
 }
 
 .logo{
     float: left;
+    padding-left: 100px;
 }
 
 nav {
     float: right;
+    padding-right: 100px;
     
   }
   nav ul {
