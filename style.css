@@ -3,11 +3,7 @@
     background: #007865;
     color:white;
     height: 5em;
-    position:absolute;
-    left: 0;
-    top: 0;
-    
-    
+    position:relative;
 }
 
 .logo{
@@ -40,4 +36,15 @@ nav {
   }
   li:not(:first-child):before {
     content: " | ";
+  }
+
+  .block_1{
+    position: relative;
+    background-image: url(images/image.png);
+    height: 300px;
+    }
+
+  .block_1 h1{
+    color: white;
+    text-align: center;
   }
