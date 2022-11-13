@@ -2,25 +2,33 @@
     width: 100%;
     background: #007865;
     color:white;
-    height: 3em;
+    height: 5em;
+    position:absolute;
+    left: 0;
+    top: 0;
     
     
 }
 
 .logo{
-    float: left;
-    padding-left: 100px;
+    position: absolute;
+    left: 150px;
+    top: 10px;
+    
 }
 
 nav {
-    float: right;
-    padding-right: 100px;
-    
+  position: absolute;
+  left: 900px;
+  top: 25px;
+       
   }
   nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    text-align: center;
+    
   }
   nav li {
     display: inline-block; 
